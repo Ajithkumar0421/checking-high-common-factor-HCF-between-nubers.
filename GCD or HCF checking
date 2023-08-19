@@ -1,0 +1,5 @@
+import math                      #import math function
+a=list(map(int,input().split())  #insert values in single line with spaces
+
+x=math.gcd(*a)                   #use the gcd(greatest common factor)
+print(x)                         #get output of the value
